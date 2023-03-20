@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+#messages{
+    border: 1px solid black;
+    height: 500px;
+    border-radius: 15px;
+    padding: 20px 10px 40px 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+input{
+    width: 77%;
+    margin-left: 15px;
+}
+button{
+    width: 20%;
+    margin-right: 15px;
+}
+.bubble{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    background-color: aquamarine;
+}
+.theirs{
+    text-align: right;
+}
+.user-name, .time{
+    font-style: italic;
+    font-size: 12px;
+    margin: 0 5px;
+}
